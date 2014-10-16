@@ -3,7 +3,7 @@
 Plugin Name: Live Chat Widget - Help Desk Plugin by Social Intents
 Plugin URI: http://www.socialintents.com
 Description: Add Live Chat Support with unlimited agents to any site with this simple plugin.  Additional widgets such as Email List Building, and Social Offers are also available! 
-Version: 1.0.3
+Version: 1.0.4
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
@@ -315,7 +315,7 @@ var silc_tc= encodeURIComponent($('#silc_tab_color').val());
 var silc_top= $('#silc_time_on_page').val();
 
 
-var url = 'https://www.socialintents.com/json/jsonSaveChatSettings.jsp?tc='silc_tc+'&tt='+silc_tt+'&ht='+silc_ht+'&wid='+silc_wid+'&to='+silc_to+'&top='+silc_top+'&callback=?';sessionStorage.removeItem("settings");
+var url = 'https://www.socialintents.com/json/jsonSaveChatSettings.jsp?tc='+silc_tc+'&tt='+silc_tt+'&ht='+silc_ht+'&wid='+silc_wid+'&to='+silc_to+'&top='+silc_top+'&callback=?';sessionStorage.removeItem("settings");
 $.ajax({
    type: 'GET',
     url: url,
