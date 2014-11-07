@@ -107,6 +107,8 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
             </div>
 	    <div id="silc_registerComplete" class="inside" style="padding: -20px 10px;display:none;">
 		<p>View reports, customize chat widget and CSS styles, and export chat history on our website at <a href='http://www.socialintents.com'>www.socialintents.com</a>
+		</p>
+		<p>Answer Chats from your Agent Dashboard: <a href='https://www.socialintents.com/chat.do'>Agent Dashboard</a>
 		</p><form id='saveDetailSettings' method="post" action="options.php">
 		<?php wp_nonce_field('update-options') ?>
 		<input type="hidden" name="action" value="update" />
