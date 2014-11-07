@@ -354,7 +354,7 @@ $.ajax({
     success: function(json) {
 	if (json.msg=='') {
          	$('#silc_widgetID').val(json.key);
-		alert("Thanks for signing up!  Now Customize your settings...");
+		alert("Thanks for signing up!  You can use these same credentials to login to socialintents.com.  Now Customize your settings...");
 		$( "#saveSettings" ).submit();
 		
 	}
