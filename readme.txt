@@ -7,7 +7,7 @@ Stable tag: 1.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat and Live Chat Support for WordPress has never been so easy.  Super easy to install and use with no other software required.  Impress your visitors today!
+Live Chat and Live Chat Support for WordPress has never been so easy.  Super easy to install with no other software required.  
 
 == Changelog ==
 = 1.0.7 =
