@@ -3,14 +3,14 @@ Contributors: Social Intents
 Tags: live chat, live chat widget, live chat plugin, wordpress live chat, live chat free, sales chat, live chat plugin free, chat online, chat plugin, chat software, chat widget, customer help, customer support, free chat, free live chat, live chat, live chat plugin, live chat support plugin, live help, live support,live support plugin, online support, support, support plugin, visitor chat, WordPress chat, zopim, olark, zendesk, live chat inc, snap engage, clickdesk, live person, livechatinc
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 1.0.9
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat is a leading live chat software provider.  Our live chat plugin is beautifully simple and we offer an always free option! 30 second set up!
+Live Chat by Social Intents is a leading live chat software provider.  Our live chat plugin is beautifully simple and we offer an always free option!
 
 == Changelog ==
-= 1.0.9 =
+= 1.1.0 =
 * Minor fixes
 
 = 1.0.6 =
@@ -19,22 +19,13 @@ Live Chat is a leading live chat software provider.  Our live chat plugin is bea
 = 1.0.5 =
 * UI Fixes on Live Chat plugin
 
-= 1.0.4 =
-* Fix provisioning bug
-
-= 1.0.2 =
-* UI Enhancements
-
-= 1.0.1 =
-* Fixes on setup
-
 = 1.0.0 =
 * Intitial Release of the Live Chat Support - Live Help Plugin
 
 == Description ==
-Live Chat Support allows you to easily add live chat to your website.  It's packed with features, super simple to setup, and supports unlimited live chat agents. Quickly respond to questions and boost sales immediately.
+Live Chat allows you to easily add live chat to your website in under 30 seconds!  It's packed with features and supports unlimited live chat agents. Quickly respond to questions, engage visitors, and boost sales.
 
-Agents chat directly in their browsers and are notified via desktop or email notifications on each new live chat request.  
+Agents chat directly in their browsers and are notified via desktop and email notifications on each new live chat request.  
 
 Social Intents offers a 100% Free Trial and an Always Free Account.
 
@@ -57,6 +48,7 @@ Questions or suggests?  Contact us at [www.socialintents.com](http://www.sociali
 * Customize default text
 * Desktop push notifications
 * Proactive chat triggers
+* Multi-Language support
 * 20 chats/month
 * Customize text and colors
 * Totally free
