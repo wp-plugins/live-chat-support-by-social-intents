@@ -19,8 +19,6 @@ Live Chat by Social Intents is a leading live chat software provider.  Our live 
 = 1.0.5 =
 * UI Fixes on Live Chat plugin
 
-= 1.0.0 =
-* Intitial Release of the Live Chat Support - Live Help Plugin
 
 == Description ==
 Live Chat allows you to easily add live chat to your website in under 30 seconds!  It's packed with features and supports unlimited live chat agents. Quickly respond to questions, engage visitors, and boost sales.
