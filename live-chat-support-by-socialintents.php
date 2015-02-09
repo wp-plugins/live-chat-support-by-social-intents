@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Live Chat Support - Help Desk Plugin by Social Intents
+Plugin Name: Live Chat Support Plugin by Social Intents
 Plugin URI: http://www.socialintents.com
 Description: Add Live Chat Support with unlimited agents to any site with this simple plugin.  Additional widgets such as Email List Building, and Social Offers are also available! 
 Version: 1.1.0

@@ -11,7 +11,7 @@ Live Chat by Social Intents is a leading live chat software provider.  Our live 
 
 == Changelog ==
 = 1.1.0 =
-* Minor fixes
+* Minor fixes and wording changes
 
 = 1.0.6 =
 * WordPress 4.1 compatible
