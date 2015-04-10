@@ -3,13 +3,16 @@ Contributors: Social Intents
 Tags: live chat, live chat widget, live chat plugin, wordpress live chat, live chat free, sales chat, live chat plugin free, chat online, chat plugin, chat software, chat widget, customer help, customer support, free chat, free live chat, live chat, live chat plugin, live chat support plugin, live help, live support,live support plugin, online support, support, support plugin, visitor chat, WordPress chat, zopim, olark, zendesk, live chat inc, snap engage, clickdesk, live person, livechatinc
 Requires at least: 3.6
 Tested up to: 4.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat by Social Intents is a leading live chat software provider.  Our live chat plugin is beautifully simple and we offer an always free option!
+Live Chat by Social Intents will help you engage and delight your visitors with Live Chat Support.
 
 == Changelog ==
+= 1.1.2 =
+* Shortcuts, additional language customizations
+
 = 1.1.1 =
 * Minor fixes
 
@@ -20,11 +23,11 @@ Live Chat by Social Intents is a leading live chat software provider.  Our live 
 * UI Fixes on Live Chat plugin
 
 == Description ==
-Live Chat allows you to easily add live chat to your website in under 30 seconds!  It's packed with features and supports unlimited live chat agents. Quickly respond to questions, engage visitors, and boost sales.
+Live Chat allows you to easily add live chat to your website in under 30 seconds!  It's packed with features and supports unlimited live chat agents. Be there the moment your audience needs you so you can delight customers and sell more.
 
-Agents chat directly in their browsers and are notified via desktop and email notifications on each new live chat request.  
+Agents chat directly in their browsers and are notified via desktop, mobile push, and email notifications on each new live chat request.  
 
-Social Intents offers a 100% Free Trial and an Always Free Account.
+Social Intents offers a 100% Free Trial.
 
 **Getting Started with our Live Chat Support Plugin**
 
@@ -43,7 +46,7 @@ Questions or suggests?  Contact us at [www.socialintents.com](http://www.sociali
 * Agent chat console
 * Pre-sales Form
 * Customize default text
-* Desktop push notifications
+* Email and Desktop push notifications
 * Proactive chat triggers
 * Multi-Language support
 * 20 chats/month
@@ -53,11 +56,12 @@ Questions or suggests?  Contact us at [www.socialintents.com](http://www.sociali
 **Pro Features**
 
 * Unlimited live chat agents
+* Unlimited monthly chat sessions
+* Remove "Powered By" Footer
 * Custom logos and branding
-* White label
-* Chat History
+* Chat History, Missed Chats, and Offline Messages
 * Custom CSS styles
-* Email transcripts and notifications
+* Mobile Push Notifications
 * Leverage your entire team to answer live chats
 * Awesome support
 
@@ -93,12 +97,5 @@ Yes, you do.  You can sign up for a free trial at [socialintents.com](http://www
 = Do I have to install software on my server to get this working? =
 
 No, Live Chat Support by Social Intents is a service. Simply sign up for the service, grab your widget key, and save it in your plugin.
-
-= Can I use Live Chat Support for Free? =
-
-Yes absolutely, all Social Intents accounts include an always free 1 option for up to 30 live chats a month.
-
-
-
 
 
