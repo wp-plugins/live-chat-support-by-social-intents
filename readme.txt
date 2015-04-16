@@ -1,6 +1,6 @@
 === Live Chat ===
 Contributors: Social Intents
-Tags: live chat, live chat widget, live chat plugin, wordpress live chat, live chat free, sales chat, live chat plugin free, chat online, chat plugin, chat software, chat widget, customer help, customer support, free chat, free live chat, live chat, live chat plugin, live chat support plugin, live help, live support,live support plugin, online support, support, support plugin, visitor chat, WordPress chat, zopim, olark, zendesk, live chat inc, snap engage, clickdesk, live person, livechatinc
+Tags: live chat, live chat widget, live chat plugin, wordpress live chat, chat online, chat plugin, chat widget, customer help, customer support, free chat, free live chat, live chat, live chat plugin, live chat support plugin, live help, live support,live support plugin, online support, support, support plugin, WordPress chat, zopim, olark, snap engage, clickdesk, live person, livechatinc
 Requires at least: 3.6
 Tested up to: 4.1
 Stable tag: 1.1.2
