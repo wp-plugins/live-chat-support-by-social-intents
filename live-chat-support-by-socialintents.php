@@ -3,7 +3,7 @@
 Plugin Name: Live Chat Support
 Plugin URI: http://www.socialintents.com
 Description: Add Live Chat Support to any site with this simple plugin.  Engage visitors, improve service, and sell more with Live Chat.
-Version: 1.1.4
+Version: 1.1.5
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
@@ -99,7 +99,7 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
             </div>
 	    <div id="silc_registerComplete" class="inside" style="padding: -20px 10px;display:none;">
 <p>Simply open the Live Chat console to answer chats right in your browser.</p>
-		<p>Just Getting Started?  <a href='http://www.socialintents.com/faq.html' target="_blank">Visit Our Help Guide</a>
+		<p>Just Getting Started?  <a href='http://www.socialintents.com/assets/pdfs/LiveChatSupportGuide.pdf' target="_blank">Download Our Live Chat Help Guide</a>
 		<p><a href='https://www.socialintents.com/chat.do' class="button button-primary" target="_blank">Open Live Chat Console</a>
 		</p><form id='saveDetailSettings' method="post" action="options.php">
 		<?php wp_nonce_field('update-options') ?>

@@ -3,7 +3,7 @@ Contributors: Social Intents
 Tags: live chat, live chat plugin, wordpress live chat, chat online, customer help, customer support, live help, live support, WordPress chat, zopim, olark, zendesk, snap engage, clickdesk, liveperson, livechatinc
 Requires at least: 3.6
 Tested up to: 4.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
