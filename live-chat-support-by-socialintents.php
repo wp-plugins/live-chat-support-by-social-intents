@@ -3,7 +3,7 @@
 Plugin Name: Live Chat Support
 Plugin URI: http://www.socialintents.com
 Description: Add Live Chat Support to any site with this simple plugin.  Engage visitors, improve service, and sell more with Live Chat.
-Version: 1.1.5
+Version: 1.1.6
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
@@ -100,7 +100,8 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
 	    <div id="silc_registerComplete" class="inside" style="padding: -20px 10px;display:none;">
 <p>Simply open the Live Chat console to answer chats right in your browser.</p>
 		<p>Just Getting Started?  <a href='http://www.socialintents.com/assets/pdfs/LiveChatSupportGuide.pdf' target="_blank">Download Our Live Chat Help Guide</a>
-		<p><a href='https://www.socialintents.com/chat.do' class="button button-primary" target="_blank">Open Live Chat Console</a>
+		<p><a href='https://www.socialintents.com/chat.do' class="button button-primary" target="_blank">Open Live Chat Console</a>&nbsp;
+			<a href='https://www.socialintents.com/widget.do?id=<?php echo(get_option('silc_widgetID')) ?>' class="button button-primary" target="_blank">Customize Text & Settings</a>
 		</p><form id='saveDetailSettings' method="post" action="options.php">
 		<?php wp_nonce_field('update-options') ?>
 		<input type="hidden" name="action" value="update" />
@@ -156,108 +157,7 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
 		</td>
 		</tr>
 		
-		<tr><td>When To Show Proactive Chat: </td><td>
-		<?php 
-		if(get_option('silc_time_on_page') && get_option('silc_time_on_page') == '0') {
-     		?>
-     		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20">20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select> 	
-    		<?php 
-			} else if(get_option('silc_time_on_page') == '10') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10"  selected>10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20">20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select>  
-		<?php 
-			} else if(get_option('silc_time_on_page') == '15') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15"  selected>15 Seconds</option>
-			<option value="20">20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select> 
-		<?php 
-			} else if(get_option('silc_time_on_page') == '20') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20"   selected>20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select> 
-		<?php 
-			} else if(get_option('silc_time_on_page') == '30') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20" >20 Seconds</option>
-			<option value="30"  selected>30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select> 
-		<?php 
-			} else if(get_option('silc_time_on_page') == '45') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20" >20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45"  selected>45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select> 
-		<?php 
-			} else if(get_option('silc_time_on_page') == '60') {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20">20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60"  selected>60 Seconds</option>
-		</select>  
-		<?php 
-			} else {
-   		?>
-		<select id="silc_time_on_page" name="silc_time_on_page">
-			<option value="0" selected>Disable</option>
-			<option value="10">10 Seconds</option>
-			<option value="15">15 Seconds</option>
-			<option value="20">20 Seconds</option>
-			<option value="30">30 Seconds</option>
-			<option value="45">45 Seconds</option>
-			<option value="60">60 Seconds</option>
-		</select>  
-		<?php 
-			}
-   		?>
 		
-		</td></tr>
 		<tr><td>Welcome Text: </td><td>
 		<?php 
 		if(get_option('silc_header_text') && get_option('silc_header_text') != '') {
@@ -320,6 +220,7 @@ $.ajax({
     success: function(json) {
        $('#silc_widgetID').val(json.key);
 	sessionStorage.removeItem("settings");
+	sessionStorage.removeItem("socialintents_vs_chat");
 	sessionStorage.setItem("hasSeenPopup","false");
 	$( "#saveDetailSettings" ).submit();
 	
