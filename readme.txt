@@ -7,7 +7,7 @@ Stable tag: 1.1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easy to use Live Chat support with unlimited agents!  Includes Email List Builder and Social Offers to Delight your customers and build sales.
+Easy to use Live Chat support with unlimited agents!  Includes Email List Builder and Social Offers to delight your customers and build sales.
 
 == Changelog ==
 = 1.1.6 =
