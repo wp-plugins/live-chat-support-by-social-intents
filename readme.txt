@@ -1,13 +1,13 @@
 === Live Chat ===
 Contributors: Social Intents
-Tags: chat, chat live, chat widget, live chat, live chat plugin, wordpress live chat, chat online, customer help, customer support, live help, live support, WordPress chat, zopim, olark, zendesk, snap engage, clickdesk, liveperson, livechatinc
+Tags: chat, chat live, chat widget, live chat, live chat plugin, wordpress live chat, chat online, customer help, customer support, live help, live support, WordPress chat, zopim, olark, zendesk, snap engage, clickdesk, liveperson, livechatinc, chat support
 Requires at least: 3.6
 Tested up to: 4.2.2
 Stable tag: 1.1.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Live Chat and Live Chat support plugin widget for wordpress.  Easily add live chat to your website today with our live chat software.
+Live Chat and Live Chat support plugin for wordpress.  Easily add chat to your website today with our live chat software.  Super easy to set up!
 
 == Changelog ==
 = 1.1.7 =
