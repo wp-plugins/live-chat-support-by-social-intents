@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Live Chat
+Plugin Name: Live Chat Support
 Plugin URI: http://www.socialintents.com
 Description: Add Live Chat Support to any site with this simple plugin.  Delight visitors, improve service, and sell more with Live Chat.
-Version: 1.1.7
+Version: 1.1.8
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
@@ -100,8 +100,8 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
 	    <div id="silc_registerComplete" class="inside" style="padding: -20px 10px;display:none;">
 <p>Simply open the Live Chat console to answer chats right in your browser.</p>
 		<p>Just Getting Started?  <a href='http://www.socialintents.com/assets/pdfs/LiveChatSupportGuide.pdf' target="_blank">Download Our Live Chat Help Guide</a>
-		<p><a href='https://www.socialintents.com/chat.do' class="button button-primary" target="_blank">Open Live Chat Console</a>&nbsp;
-			<a href='https://www.socialintents.com/widget.do?id=<?php echo(get_option('silc_widgetID')) ?>' class="button button-primary" target="_blank">Customize Text & Settings</a>
+		<p><a href='https://www.socialintents.com/chat.do' class="button button-primary" target="_blank">Live Chat Console</a>&nbsp;
+			<a href='https://www.socialintents.com/widget.do?id=<?php echo(get_option('silc_widgetID')) ?>' class="button button-primary" target="_blank">Customize Text & Advanced Settings</a>
 		</p><form id='saveDetailSettings' method="post" action="options.php">
 		<?php wp_nonce_field('update-options') ?>
 		<input type="hidden" name="action" value="update" />
@@ -124,7 +124,7 @@ http://www.socialintents.com/" title="', '">', '</a>') ?></p>
    		?>
 		</td>
 		</tr>
-		<tr><td width="25%">Tab Offline Text: </td>
+		<tr><td width="25%">Offline Text: </td>
 		<td >
 		<?php
 		if(get_option('silc_tab_offline_text') ) {
