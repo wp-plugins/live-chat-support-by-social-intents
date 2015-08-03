@@ -2,8 +2,8 @@
 /*
 Plugin Name: Live Chat Support
 Plugin URI: http://www.socialintents.com
-Description: Add Live Chat Support to any site with this simple plugin.  Delight visitors, improve service, and sell more with Live Chat.
-Version: 1.1.8
+Description: Add Live Chat Support to any site.  Delight visitors, improve service, and sell more with Live Chat.
+Version: 1.1.9
 Author: Social Intents
 Author URI: http://www.socialintents.com/
 */
